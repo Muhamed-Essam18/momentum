@@ -1,4 +1,4 @@
-const endDate = new Date("2025-05-15T00:00:00").getTime();
+const endDate = new Date("2025-05-08T00:00:00").getTime();
 
 setInterval(() => {
   const now = new Date().getTime();
@@ -45,6 +45,12 @@ document.querySelectorAll('.file-upload input[type="file"]').forEach(input => {
 
   function openPolicyPopup() {
     document.getElementById('policyModal').style.display = 'flex';
+  }
+  
+  
+
+  function openPolicyPopup1() {
+    document.getElementById('policyModal1').style.display = 'flex';
   }
   
   function closePolicyPopup() {
